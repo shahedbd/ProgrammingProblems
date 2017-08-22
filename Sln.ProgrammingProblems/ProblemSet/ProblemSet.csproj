@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GeneralProblem\FactorialNumber.cs" />
     <Compile Include="GeneralProblem\FibonacciSeries.cs" />
+    <Compile Include="GeneralProblem\OddEvenNumber.cs" />
     <Compile Include="GeneralProblem\PalindromeNumber.cs" />
     <Compile Include="GeneralProblem\PrimeNumber.cs" />
     <Compile Include="Program.cs" />

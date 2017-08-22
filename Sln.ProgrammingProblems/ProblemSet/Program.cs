@@ -8,7 +8,9 @@ namespace ProblemSet
         static void Main(string[] args)
         {
 
-            FibonacciSeries.IMPFibonacciSeries();
+            OddEvenNumber.PrintOddAndEvenNumber();
+            //FactorialNumber.IMPFactorial();
+            //FibonacciSeries.IMPFibonacciSeries();
             //PrimeNumber.PrimeSUM();
             //PrimeNumber.IMPPimeNumber();
             //PalindromeNumber.PalindromeRawLogic();
