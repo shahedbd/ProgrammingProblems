@@ -8,8 +8,10 @@ namespace ProblemSet
         static void Main(string[] args)
         {
 
-
-            PalindromeNumber.PalindromeRawLogic();
+            FibonacciSeries.IMPFibonacciSeries();
+            //PrimeNumber.PrimeSUM();
+            //PrimeNumber.IMPPimeNumber();
+            //PalindromeNumber.PalindromeRawLogic();
             Console.ReadLine();
         }
     }
