@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GeneralProblem\DecimalToBinaryNumber.cs" />
     <Compile Include="GeneralProblem\FactorialNumber.cs" />
     <Compile Include="GeneralProblem\FibonacciSeries.cs" />
     <Compile Include="GeneralProblem\OddEvenNumber.cs" />

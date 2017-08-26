@@ -8,7 +8,8 @@ namespace ProblemSet
         static void Main(string[] args)
         {
 
-            OddEvenNumber.PrintOddAndEvenNumber();
+            DecimalToBinaryNumber.DecimalToBinaryNumberRun();
+            //OddEvenNumber.PrintOddAndEvenNumber();
             //FactorialNumber.IMPFactorial();
             //FibonacciSeries.IMPFibonacciSeries();
             //PrimeNumber.PrimeSUM();
