@@ -4,7 +4,7 @@ namespace ProblemSet.GeneralProblem
 {
     public static class FibonacciSeries
     {
-        public static void IMPFibonacciSeries()
+        public static void ExampleOne()
         {
             while (true)
             {
@@ -28,5 +28,44 @@ namespace ProblemSet.GeneralProblem
             }
 
         }
+
+
+        public static void Fibonacci_Iterative(int SeriesLimit)
+        {
+            int a = 0, b = 1, c = 0;
+            Console.Write("{0} {1}", a, b);
+            for (int i = 2; i < SeriesLimit; i++)
+            {
+                c = a + b;
+                Console.Write(" {0}", c);
+                a = b;
+                b = c;
+            }
+        }
+
+
+        public static void Fibonacci_Recursive(int len)
+        {
+            Fibonacci_Rec_Temp(0, 1, 1, len);
+        }
+        private static void Fibonacci_Rec_Temp(int a, int b, int counter, int len)
+        {
+            if (counter <= len)
+            {
+                Console.Write("{0} ", a);
+                Fibonacci_Rec_Temp(b, a + b, counter + 1, len);
+            }
+        }
+
+        public static int GetNthFibonacci_Rec(int n)
+        {
+            if ((n == 0) || (n == 1))
+            {
+                return n;
+            }
+            else
+                return GetNthFibonacci_Rec(n - 1) + GetNthFibonacci_Rec(n - 2);
+        }
+
     }
 }

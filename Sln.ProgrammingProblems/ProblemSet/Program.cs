@@ -7,8 +7,8 @@ namespace ProblemSet
     {
         static void Main(string[] args)
         {
-
-            DecimalToBinaryNumber.DecimalToBinaryNumberRun();
+            SwapTwoNumbers.Execute();
+            //DecimalToBinaryNumber.DecimalToBinaryNumberRun();
             //OddEvenNumber.PrintOddAndEvenNumber();
             //FactorialNumber.IMPFactorial();
             //FibonacciSeries.IMPFibonacciSeries();
