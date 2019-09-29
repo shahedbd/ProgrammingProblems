@@ -49,15 +49,34 @@
     <Compile Include="GeneralProblem\OddEvenNumber.cs" />
     <Compile Include="GeneralProblem\PalindromeNumber.cs" />
     <Compile Include="GeneralProblem\PrimeNumber.cs" />
+    <Compile Include="GeneralProblem\RangeSumm.cs" />
     <Compile Include="GeneralProblem\SwapTwoNumbers.cs" />
+    <Compile Include="Hackerrank\BirthdayCakeCandles.cs" />
+    <Compile Include="Hackerrank\CatsandMouse.cs" />
+    <Compile Include="Hackerrank\ClimbingtheLeaderboard.cs" />
+    <Compile Include="Hackerrank\ComparetheTriplets.cs" />
+    <Compile Include="Hackerrank\DayoftheProgrammer.cs" />
+    <Compile Include="Hackerrank\DivisibleSumPairs.cs" />
+    <Compile Include="Hackerrank\ElectronicsShop.cs" />
+    <Compile Include="Hackerrank\GradingStudents.cs" />
+    <Compile Include="Hackerrank\MiniMaxSum.cs" />
+    <Compile Include="Hackerrank\PickingNumbers.cs" />
+    <Compile Include="Hackerrank\SummingtheNseries.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomProblem\HackerRankExam.cs" />
     <Compile Include="Template\IOStructure.cs" />
+    <Compile Include="Hackerrank\SockMerchant.cs" />
+    <Compile Include="TestCode\RandTest.cs" />
+    <Compile Include="TestCode\StackOverflow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Hackerrank\Notes.txt" />
+    <Content Include="Notes.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

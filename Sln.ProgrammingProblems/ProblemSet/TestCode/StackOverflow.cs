@@ -1,24 +1,25 @@
 ﻿using System;
+using System.Text;
 
-namespace ProblemSet.Template
+namespace ProblemSet.TestCode
 {
-    public class IOStructure
+    public static class StackOverflow
     {
-        public void IOPatternOne()
+        public static void UTF8toByte()
         {
-            int intNoInput1 = Convert.ToInt16(Console.ReadLine());
-            String[] inputArry1 = Console.ReadLine().Split(' ');
+            //Encoding _UTF8 = Encoding.UTF8;
+            string[] _mainString = { "Héllo World" };
+            Console.WriteLine("Main String: " + _mainString);
 
-            for (int k = 0; k < inputArry1.Length; k++) Console.WriteLine(inputArry1[k]);
+            //Convert a string to utf-8 bytes.
+            byte[] _utf8Bytes = Encoding.UTF8.GetBytes(_mainString[0]);
 
-
-            int intNoInput2 = Convert.ToInt16(Console.ReadLine());
-            string[] strOutPut = new string[intNoInput2];
-
-            Console.ReadKey();
+            //Convert utf-8 bytes to a string.
+            string _stringuUnicode = Encoding.UTF8.GetString(_utf8Bytes);
+            Console.WriteLine("String Unicode: " + _stringuUnicode);
         }
 
-        public static void IOPatternTwo()
+        public static void RangeSum()
         {
             while (true)
             {
@@ -38,7 +39,5 @@ namespace ProblemSet.Template
                 }
             }
         }
-
-
     }
 }

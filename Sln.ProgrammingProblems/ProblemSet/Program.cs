@@ -1,4 +1,4 @@
-﻿using ProblemSet.GeneralProblem;
+﻿using ProblemSet.Hackerrank;
 using System;
 
 namespace ProblemSet
@@ -7,7 +7,9 @@ namespace ProblemSet
     {
         static void Main(string[] args)
         {
-            SwapTwoNumbers.Execute();
+            SummingtheNseries.Execute();
+
+            //SwapTwoNumbers.Execute();
             //DecimalToBinaryNumber.DecimalToBinaryNumberRun();
             //OddEvenNumber.PrintOddAndEvenNumber();
             //FactorialNumber.IMPFactorial();
@@ -17,5 +19,6 @@ namespace ProblemSet
             //PalindromeNumber.PalindromeRawLogic();
             Console.ReadLine();
         }
+
     }
 }
