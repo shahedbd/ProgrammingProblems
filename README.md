@@ -9,7 +9,7 @@
 
 
 #### Sample IO Pattern
-```
+```csharp
 public void IOPatternOne()
 {
     int intNoInput1 = Convert.ToInt16(Console.ReadLine());
