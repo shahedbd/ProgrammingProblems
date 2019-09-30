@@ -58,6 +58,7 @@
     <Compile Include="Hackerrank\DayoftheProgrammer.cs" />
     <Compile Include="Hackerrank\DivisibleSumPairs.cs" />
     <Compile Include="Hackerrank\ElectronicsShop.cs" />
+    <Compile Include="Hackerrank\Encryption.cs" />
     <Compile Include="Hackerrank\GradingStudents.cs" />
     <Compile Include="Hackerrank\MiniMaxSum.cs" />
     <Compile Include="Hackerrank\PickingNumbers.cs" />

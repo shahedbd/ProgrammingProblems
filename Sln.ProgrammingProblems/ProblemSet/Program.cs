@@ -7,7 +7,7 @@ namespace ProblemSet
     {
         static void Main(string[] args)
         {
-            SummingtheNseries.Execute();
+            Encryption.Execute();
 
             //SwapTwoNumbers.Execute();
             //DecimalToBinaryNumber.DecimalToBinaryNumberRun();
