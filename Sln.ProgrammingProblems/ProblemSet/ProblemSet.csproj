@@ -66,6 +66,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomProblem\HackerRankExam.cs" />
+    <Compile Include="StackOverflowProblem\StackOverflowMain.cs" />
     <Compile Include="Template\IOStructure.cs" />
     <Compile Include="Hackerrank\SockMerchant.cs" />
     <Compile Include="TestCode\RandTest.cs" />

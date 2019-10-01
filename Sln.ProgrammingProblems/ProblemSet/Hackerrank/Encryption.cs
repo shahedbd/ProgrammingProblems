@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProblemSet.Hackerrank
 {
@@ -13,9 +9,9 @@ namespace ProblemSet.Hackerrank
         {
             int InitialLength = s.Length;
             s = s.Replace(" ", string.Empty);
-            int RemobeSpaceLength = s.Length;
+            int RemoveSpaceLength = s.Length;
 
-            int Row = (int)Math.Round(Math.Sqrt(RemobeSpaceLength));
+            int Row = (int)Math.Round(Math.Sqrt(RemoveSpaceLength));
             int Column = Row + 1;
 
             string[] ar = new string[Row];
@@ -23,8 +19,11 @@ namespace ProblemSet.Hackerrank
             int Position = 0;
             for (int i = 0; i < Row; i++)
             {
-                if (i == Row - 1) Column = RemobeSpaceLength;
-                ar[i] = s.Substring(Position, Column);
+                if (i == Row - 1)
+                {
+                    ar[i] = s.Substring(Position, (RemoveSpaceLength - Position));
+                }
+                else ar[i] = s.Substring(Position, Column);
                 Position = Position + Row + 1;
             }
 
